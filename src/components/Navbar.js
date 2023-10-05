@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/Navbar.css";
 import logo from "../images/logo-mmnews.png";
+import pics1 from "../images/telephone.png";
 
 function Navbar() {
   return (
@@ -10,7 +11,7 @@ function Navbar() {
       </div>
       <div className="links">
         <a href="M">
-          <img src="☎️" alt="Lien 1" />
+          <img src={pics1} alt="Lien 1" />
         </a>
         <a href="M">
           <img src="" alt="Lien 2" />
