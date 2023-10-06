@@ -20,7 +20,7 @@ function Navbar() {
           <img src="" alt="Lien 3" />
         </a>
         <a href="M">
-          <img src="" alt="Lien 4" />
+          <img src="{pics1}" alt="Lien 4" />
         </a>
       </div>
     </div>

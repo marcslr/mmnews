@@ -1,0 +1,19 @@
+.error-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: beige;
+}
+
+h1 {
+  font-size: 6rem;
+  color: #e74c3c; /* Une couleur rouge, par exemple */
+}
+
+p {
+  font-size: 1.5rem;
+  color: #333;
+  text-align: center;
+}

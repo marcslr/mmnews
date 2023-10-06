@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #333; /* Couleur de fond de la barre de navigation */
+  background-color: #be8686; /* Couleur de fond de la barre de navigation */
   color: white; /* Couleur du texte */
   padding: 30px 20px;
 }
