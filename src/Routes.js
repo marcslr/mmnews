@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/Navbar.js";
 
 import Home from "./pages/Acceuil.js";
 import Sports from "./pages/Sports.js";
@@ -14,7 +14,7 @@ export default function Head() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/sports" element={<Sports />} />
+          <Route path="/Sports" element={<Sports />} />
           <Route path="/meteo" element={<Meteo />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<Error />} />
