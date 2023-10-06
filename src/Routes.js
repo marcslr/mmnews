@@ -1,12 +1,11 @@
-// import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 
-import Home from "./pages/Acceuil";
-import Sports from "./pages/Sports";
-import Meteo from "./pages/Meteo";
-import Contact from "./pages/Contact";
-import Error from "./pages/Error";
+import Home from "./pages/Acceuil.js";
+import Sports from "./pages/Sports.js";
+import Meteo from "./pages/Meteo.js";
+import Contact from "./pages/Contact.js";
+import Error from "./pages/Error.js";
 
 export default function Head() {
   return (
@@ -24,5 +23,3 @@ export default function Head() {
     </>
   );
 }
-
-const root = ReactDOM.createRoot(document.getElementById("root"));

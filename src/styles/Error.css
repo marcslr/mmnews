@@ -4,12 +4,12 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: beige;
+  background-color: #175676;
 }
 
 h1 {
   font-size: 6rem;
-  color: #e74c3c; /* Une couleur rouge, par exemple */
+  color: #D62839;
 }
 
 p {

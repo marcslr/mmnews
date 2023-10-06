@@ -1,7 +1,6 @@
 import React from "react";
 import "../styles/Navbar.css";
 import logo from "../images/logo-mmnews.png";
-import pics1 from "../images/telephone.png";
 import { Link } from "react-router-dom";
 function Navbar() {
   return (
@@ -22,8 +21,9 @@ function Navbar() {
           <Link to="/meteo">Meteo</Link>
           {/* <img src="" alt="Lien 3" /> */}
         </a>
-        <a href="M">
-          <img src="" alt="Lien 4" />
+        <a>
+          <Link to="/Authentification">Compte</Link>
+          {/* <img src="" alt="Lien 3" /> */}
         </a>
       </div>
     </div>

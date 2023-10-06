@@ -3,23 +3,21 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #be8686; /* Couleur de fond de la barre de navigation */
+  background-color: #D62839; /* Couleur de fond de la barre de navigation */
   color: white; /* Couleur du texte */
   padding: 30px 20px;
 }
 
 .logo img {
-  width: 250px; /* Ajustez la largeur de votre logo */
+  width: 300px; /* Ajustez la largeur de votre logo */
 }
 
 .links {
   display: flex;
   gap: 20px;
+  padding: 20px;
 }
 
-.links a img {
-  width: 30px; /* Ajustez la largeur de vos images de lien */
-}
 
 /* Styles pour le format mobile */
 @media (max-width: 768px) {
@@ -34,17 +32,11 @@
     flex-direction: row;
     position: fixed;
     bottom: 0;
-    background-color: #333; /* Couleur de fond pour les liens en bas */
-    padding: 10px;
+    background-color: #D62839; 
+    padding: 20px;
     width: 100%;
     justify-content: center;
+    text-align: center;
   }
 
-  .links a {
-    padding: 0 10px;
-  }
-
-  .links a img {
-    width: 20px;
-  }
 }
