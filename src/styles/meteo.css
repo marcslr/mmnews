@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 * {
   box-sizing: border-box;
@@ -6,21 +6,37 @@
   padding: 0;
 }
 
-body {
-  font-family: 'Outfit', 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 
 p {
+  color: black;
   font-size: 1.6rem;
 }
 
 h1 {
+  text-align: center;
   font-size: 6rem;
+  color: black;
 }
+.background-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  object-fit: cover;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(1, 0, 0, 0.8); /* Ajustez l'opacité comme vous le souhaitez */
+  z-index: -1;
+}
+
 
 .app {
   width: 100%;
@@ -30,9 +46,8 @@ h1 {
 }
 
 .app:before {
-  content: '';
-  /* background: url('./assets/sunset.jpg') no-repeat center center/cover; */
-  background-color: var(--couleur-background);
+  content: "";
+
   position: absolute;
   width: 100%;
   height: 100%;
@@ -44,15 +59,17 @@ h1 {
 .app .search {
   text-align: center;
   padding: 1rem;
+  margin: 20px;
 }
 
 .app input {
-  padding: .7rem 1.5rem;
-  font-size: 1.2rem;
+  text-align: center;
+  padding: 0.7rem 1.5rem;
+  font-size: 1.4rem;
   border-radius: 25px;
-  border: 1px solid rgba(255,255,255, 0.8);
-  background: rgba(255,255,255, 0.1);
-  color: #f8f8f8;
+  border: 1px solid #d62839;
+  background: rgba(255, 255, 255, 0.1);
+  color: black;
 }
 
 ::placeholder {
@@ -91,7 +108,7 @@ h1 {
   margin: 1rem auto;
   padding: 1rem;
   border-radius: 12px;
-  background-color: rgba(255,255,255, 0.2);
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 .bold {
