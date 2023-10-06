@@ -1,4 +1,4 @@
-import ReactDOM from "react-dom/client";
+// import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 
@@ -11,18 +11,19 @@ import Error from "./pages/Error";
 export default function Head() {
   return (
     <>
-        <BrowserRouter>
-            <Navbar/>
-            <Routes>
-                <Route path="/" element={<Home />}/>
-                <Route path="sports" element={<Sports />} />
-                <Route path="meteo" element={<Meteo />} />
-                <Route path="contact" element={<Contact />} />
-                <Route path="*" element={<Error />} />
-            </Routes>
-        </BrowserRouter>
+      <BrowserRouter>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/sports" element={<Sports />} />
+          <Route path="/meteo" element={<Meteo />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="*" element={<Error />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
+// root.render(<App />);
