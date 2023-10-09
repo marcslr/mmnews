@@ -2,6 +2,8 @@ import React from "react";
 import "../styles/Navbar.css";
 import logo from "../images/logo-mmnews.png";
 import { Link } from "react-router-dom";
+
+
 function Navbar() {
   return (
     <div className="navbar">
