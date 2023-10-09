@@ -1,2 +1,2 @@
-export { default as NewsItem } from "./NewsItem";
-export { default as NewsList } from "./NewsList";
+export { default as NewsItem } from "../components/NewsItems.js";
+export { default as NewsList } from "../components/NewsList.js";

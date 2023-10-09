@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar.js";
 
-import Home from "./pages/Acceuil.js";
+import Home from "./pages/Accueil.js";
 import Sports from "./pages/Sports.js";
 import Meteo from "./pages/Meteo.js";
 import Contact from "./pages/Contact.js";
