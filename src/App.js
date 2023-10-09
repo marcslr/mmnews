@@ -9,7 +9,6 @@ function App() {
       {/* <Navbar /> */}
       <div className="App">
         <Head />
-        <Accueil />
       </div>
     </>
   );
