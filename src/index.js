@@ -10,5 +10,3 @@ root.render(
   </React.StrictMode>
 );
 
-export { default as NewsItem } from "./NewsItem";
-export { default as NewsList } from "./NewsList";
